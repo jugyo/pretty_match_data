@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["jugyo"]
   s.email       = ["jugyo.org@gmail.com"]
   s.homepage    = "https://github.com/jugyo/pretty_match_data"
-  s.summary     = %q{pretty MatchData}
-  s.description = %q{pretty MatchData. It provides pretty #to_s method}
+  s.summary     = %q{Pretty MatchData}
+  s.description = %q{Pretty MatchData. It provides pretty #to_s method}
 
   s.rubyforge_project = "pretty_match_data"
 
