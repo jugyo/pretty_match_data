@@ -5,7 +5,7 @@ class MatchData
   def to_s
     match = self[0].dup
     to_a[1..-1].each do |capture|
-      match.gsub!(capture) { |s| underline { send(_next_color) { s } } }
+      match.gsub!(capture) { |s| underline + send(_next_color) { s } + underline }
     end
     pre_match + underline { match } + post_match
   end
