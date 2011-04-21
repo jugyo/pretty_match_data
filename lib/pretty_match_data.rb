@@ -11,7 +11,7 @@ class MatchData
   end
 
   def _next_color
-    @_color ||= %w(red green yellow blue magenta cyan).map { |c| c.to_sym }
+    @_color ||= %w(red green yellow blue magenta cyan).map { |c| "on_#{c}".to_sym }
     @_color.push @_color.shift
     @_color[0]
   end
